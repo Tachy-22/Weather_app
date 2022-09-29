@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  font-size: 0.9rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(243, 243, 243, 1);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25em;
+  background: rgb(252, 245, 253);
+  border-radius: 2em;
+  box-shadow: 2rem 2rem 2.5rem rgba(94, 88, 88, 0.3);
+  padding: 2rem;
+ 
+}
+.Sec_A {
+  font-size: 1.0rem;
+  padding: 0px 0px 1.5rem 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.5rem;
+ 
+}
+.icon-day{
+    display:none;
+}
+.Sec_B {
+  margin-top: 2rem;
+  padding: 1.5rem 0px;
+  width: 100%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0.4rem 0.4rem 1rem -0.5rem rgba(0, 0, 0, 0.3),
+    -0.7rem -0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 1);
+  
+}
+.Sec_B h4 {
+  color: rgb(132, 131, 131);
+}
+.Sec_B h3 {
+  color: rgb(86, 84, 84);
+}
+div[class^="icon-"] {
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.2rem 0.2em 0.1rem -0.1rem rgba(80, 80, 80, 0.3),
+    -0.5rem -0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 1);
+}
+.circ-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  width: 20rem;
+  height: 20rem;
+}
+.circ-aux {
+  position: absolute;
+  color: rgb(11, 136, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 14rem;
+  background: rgb(252, 245, 253);
+}
+
+div[class^="circ-"] {
+  border-radius: 50rem;
+  box-shadow: 0.2rem 0.2rem 0.2rem -0.1rem rgba(80, 80, 80, 0.3),
+    -0.7rem -0.2rem 0.5rem -0.2rem rgba(255, 255, 255, 1);
+}
+.circ-main {
+  position: relative;
+}
+.Sec_D {
+  display: flex;
+  column-gap: 4rem;
+  
+}
+.bot {
+  /* background-color: blue; */
+  padding: 1.5rem 1.2rem 1.52rem;
+  width: 7rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  justify-content: center;
+  box-shadow: 0.3rem 0.2rem 0.3rem 0rem rgba(80, 80, 80, 0.3),
+    -0.7rem -0.5rem 0.5rem -0.5rem rgba(255, 255, 255, 1);
+  border-radius: 1.5rem;
+}
+.fa-cloud-rain {
+  color: rgb(49, 120, 235);
+  font-size: 2.2rem;
+}
+.fa-wind {
+  color: rgb(116, 120, 166);
+  font-size: 2.2rem;
+}
+.fa-temperature-half {
+  padding-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+hr {
+  color: rgb(110, 135, 239);
+  position: absolute;
+  width: 85%;
+}
+#B {
+  transform: rotate(90deg);
+}
+#C {
+  transform: rotate(30deg);
+}
+#D {
+  transform: rotate(60deg);
+}
+#E {
+  transform: rotate(-30deg);
+}
+#F {
+  transform: rotate(-60deg);
+}

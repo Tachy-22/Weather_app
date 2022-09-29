@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/bf1cef0f0b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <title>Weather_app</title>
+  </head>
+  <body>
+    <main>
+      <div id="main_app" class="main_app">
+        <section class="Sec_A">
+          <div class="icon-back">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <h1>Weather App</h1>
+          <div
+            type="submit"
+            onclick="change()"
+            class="icon-night"
+            id="icon-night"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </div>
+          <div type="submit" onclick="changeB()" class="icon-day" id="icon-day">
+            <i class="fa-solid fa-sun"></i>
+          </div>
+        </section>
+        <section class="Sec_B">
+          <h4>Period</h4>
+          <h3>Today</h3>
+          <div class="icon-front">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </section>
+        <section id="Sec_C" class="Sec_C">
+          <div class="circ-main" id="circ-main">
+            
+            <hr class="lines" id="A"/>
+            <hr class="lines" id="B" />
+            <hr class="lines" id="C" />
+            <hr class="lines" id="D" />
+            <hr class="lines" id="E" />
+            <hr class="lines" id="F" />
+
+            <div class="circ-aux">
+              <i id="therm" class="fa-solid fa-temperature-half"></i>
+              <h1 id="temp">27 &deg C</h1>
+            </div>
+
+        </section>
+        <section class="Sec_D">
+          <div class="bot">
+            <i class="fa-solid fa-cloud-rain" id="rain"></i>
+            <h3>13%</h3>
+          </div>
+          <div class="bot">
+            <i class="fa-solid fa-wind" id="wind"></i>
+            <h3>6 km/h</h3>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
